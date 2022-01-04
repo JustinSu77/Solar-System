@@ -1,0 +1,189 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ 
+body{
+    background-color: rgb(27, 25, 25);
+    width: auto;
+    overflow-x: hidden;
+     
+}
+ .container{
+     height: auto;
+ }
+ header, footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }
+
+ header{
+    position: fixed;
+     width: 100%;
+     top: 0;
+ }
+ footer{
+     position: relative;
+     display: inline-block;
+     bottom: 0px;
+     width: 100%;
+     height: 20%;
+     
+    
+     width: 100%;
+     
+ }
+
+  
+
+ header h1{
+     color: gold;
+ }
+
+ main{
+     
+    display: inline;
+     background-image: url('../Images/space.jpg');
+     background-size: contain;
+     width: 85%;
+    height: auto;
+     
+    float: right;
+  
+
+  
+   
+ }
+ 
+ nav{
+     position: fixed;
+     display: inline-block;
+     height: 100%;
+     width: 15%;
+     background-color: rgb(78, 72, 72);
+     color:white;
+    z-index: 1;
+     text-align: center;
+     
+    
+    overflow: hidden;
+    
+     
+ }
+
+ nav ul{
+     
+     list-style-type: none;
+     background-color: rgb(172, 172, 172);
+     padding: 10px;
+     width: 100%;
+     margin-right: 0px;
+     font-size:20px;
+ }
+
+ .navigation, nav h2{
+     text-align:center;
+     font-size: 36px;
+     
+     
+ }
+
+ .milky-way-link{
+     text-align: center;
+ }
+ .milky-way{
+    /* background-color:  rgb(184, 40, 184); */
+    background-color: rgb(161, 60, 255);
+ }
+ .planet-section{
+   margin-top: 55px;
+    
+     padding: 10px;
+ }
+  
+ .sun{
+     background-color: orange;
+ }
+
+ .moon{
+     background-color: lightgray;
+ }
+
+ .planet-section h2{
+     font-size: 36px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding: 10px;
+     text-align: center;
+ }
+
+ 
+ .planet-section img{
+     height: 250px;
+     width: 300px;
+     display: inline;
+     float:left;
+     margin-right: 15px;
+ }
+ .planet-info-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 2.5rem;
+    
+     
+     
+    
+ }
+
+ .mercury{
+     background-color: rgb(185, 204, 223);
+ }
+
+ .venus{
+     background-color: rgb(233, 163, 138);
+ }
+
+ .earth{
+     background-color: greenyellow;
+ }
+
+ .mars{
+     background-color:rgb(197, 50, 50);
+ }
+ .jupiter{
+     background-color: sandybrown;
+ }
+
+ .saturn{
+     background-color:cornsilk;
+ }
+
+ .uranus{
+     background-color: skyblue;
+ }
+
+
+ .neptune{
+     background-color: rgb(104, 121, 218);
+ }
+
+ .pluto{
+     background-color:aliceblue;
+ }
+
+ .navigation{
+     color:red;
+ }
+
+ 
+ ul li a {
+     color: white;
+     text-decoration: none;
+ }
+ ul li a:hover{
+    color: gold;
+ }
